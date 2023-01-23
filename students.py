@@ -10,7 +10,7 @@ class Student:
         self._last_name = last_name
         self._start_date = date.today()
         self.end_date = date.today() + timedelta(days=365)
-        self._naughty_list = False
+        self.naughty_list = False
 
     @property
     def full_name(self):
